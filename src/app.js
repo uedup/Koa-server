@@ -1,9 +1,8 @@
 const {APP_PORT} = require('./config/config.default')
 const app = require('./app/index')
 
-
 app.use((ctx,next) => {
-    ctx.body="whelcome !!!!!!!"
+    ctx.body="whelcome !"
 })
 
 app.listen(APP_PORT, function () {
