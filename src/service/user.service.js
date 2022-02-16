@@ -18,7 +18,7 @@ class UserService {
         attributes:["id","user_name","password","is_admin"],
         where:whereOps
       })
-      console.log('_____________________________',res)
+
       return res?res.dataValues:null
     } 
   }
